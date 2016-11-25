@@ -1,0 +1,12 @@
+VAR $mystring, STRING, 100, "hello world"
+VAR $mychar, CHAR, 'c' 
+SET_STR_CHAR $mystring, 3, $mychar
+GET_STR_CHAR $mystring, 4, $mychar1 
+VAR $myint, NUMERIC, 10
+VAR $myint1, NUMERIC, 11
+VAR $myint2, NUMERIC, 22
+OUT 5, "hello"
+
+
+
+

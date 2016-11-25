@@ -1,0 +1,11 @@
+VAR $myint,NUMERIC,100
+VAR $myfloat,REAL,12.14
+VAR $myint1,NUMERIC,101
+VAR $myfloat1,REAL,12.11
+VAR $myint2,NUMERIC,102
+VAR $myfloat2,REAL,12.12
+VAR $myint3,NUMERIC,103
+VAR $myfloat3,REAL,12.13
+VAR $myint4,NUMERIC,104
+VAR $myfloat4,REAL,12.15
+OUT $myint, $myfloat, $myint1, $myfloat1, $myint2, $myfloat2, $myint3, $myfloat3, $myint4, $myfloat4
