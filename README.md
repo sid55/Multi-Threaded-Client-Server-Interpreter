@@ -1,11 +1,1 @@
-Bsldf;sdfnlksdnf
-hello whats up
-Julius is here
-h
-i
-Sid wuz here
-Julius is here2
-Julius is here Again
-David is here1
-#excellent this is in red ink for some reasons 
-# Advanced-Programming-Final-Project
+This project is a Multithreaded Client Server Machine Instruction Simulator. It consists of multiple clients that could connect to a server where each client has a file consisting of a set of instructions. The server will do the computation for each instruction from the clients and put all the results into the .out file. Go into the Documents folder for more information regarding this project. 
