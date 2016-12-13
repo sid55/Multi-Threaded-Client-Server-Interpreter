@@ -1,0 +1,26 @@
+VAR $mybob, NUMERIC, 10 
+VAR $mybilly, NUMERIC, 3 
+VAR $mysham, STRING, 100, "HELLO"
+VAR $myyo, CHAR, 'c'
+VAR $myyaaa, REAL, 102.3
+ADD $myjoe, $mybob, $mybilly
+SUB $mysam, $mybilly, 10 
+OUT $myjoe, $mysam 
+OUT $mybob, $mybilly
+THREAD_BEGIN
+OUT '\n' 
+OUT $myjoe, $mysam, $mybob, $mybilly
+THREAD_END
+LABEL LAB10
+OUT '\t'
+OUT $mysam 
+JMPZ LAB10, $mysam 
+OUT $mysham, $myyo
+OUT $myyo, $mysham 
+OUT $myyaaa
+LABEL THIRTY 
+OUT '\n'
+OUT $mybob, $mybilly 
+ADD $mybilly, $mybilly, $mybob 
+OUT $mybilly 
+JMPGT THIRTY, $mybob, $mybilly

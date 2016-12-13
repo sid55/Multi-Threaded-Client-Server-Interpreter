@@ -1,0 +1,23 @@
+VAR $mystring, STRING, 100, "hello new world"
+VAR $mystring2, STRING, 100, "hello"
+VAR $myint2, NUMERIC, 350
+SLEEP 10
+THREAD_BEGIN
+OUT "1"
+ADD $myint2, 3,4
+OUT "2"
+LOCK $myint2
+THREAD_END
+OUT "hello"
+OUT 3
+OUT "wassup"
+OUT $myint2
+THREAD_BEGIN
+VAR $mystring, STRING, 100, "eassup"
+OUT 4
+LOCK $myint2
+SUB $myint2,2,9
+OUT "5", $myint2
+UNLOCK $myint2
+THREAD_END
+
